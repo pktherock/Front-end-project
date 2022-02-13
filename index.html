@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-3</title>
+
+    <!-- Adding favicon icon -->
+    <link rel="icon" href="./img/favicon.ico">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- custom mediaQuery css file -->
+    <link rel="stylesheet" href="./css/mediQuery.css">
+
+    <!-- custom scrollbar css file -->
+    <link rel="stylesheet" href="./css/scrollBar.css">
+
+    <!-- cdn link for getting fonts from fontAwesome.com -->
+    <script src="https://kit.fontawesome.com/8407f62721.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <!-- Header section starts -->
+    <header class="flex header">
+      <div class="logo flex">
+        <p class="logoName">FindLaw</p>
+      </div>
+      <div class="right">
+        <input class="border-bottom" type="text" placeholder="SEARCH" />
+        <p class="text-right padding-top padding-bottom border-bottom">
+          ESPA&Ntilde;OL
+        </p>
+        <p class="text-right padding-top padding-bottom phone-no">
+          XXX.XXX.XXXX
+        </p>
+      </div>
+    </header>
+    <!-- Header part ends -->
+
+    <!-- Navigation section starts -->
+    <nav class="flex navigation d-none" id="show">
+      <div class="left">
+        <ul class="flex ul">
+          <li><a href="#"> ABOUT US</a></li>
+          <li><a href="#">RESULTS</a></li>
+          <li><a href="#">STORIES</a></li>
+          <li><a href="#">LAWYERS & STAFF</a</li>
+          <li><a href="#">NEWS</a></li>
+          <li><a href="#">PRACTICE AREAS</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <button class="nav_btn">CONTACT US</button>
+      </div>
+    </nav>
+
+    <!-- Hamburger Section starts-->
+    <label for="check" class="check_btn">
+      <i class="hamburger fa-solid fa-bars"  id="clickAction" ></i>
+    </label>
+
+      <!-- Hamburger Section ends -->
+
+    <!-- Navigation  section ends-->
+
+    <!-- image section starts -->
+    <div class="background_image">
+      <img class="bg-image" src="./img/bg-banner.jpg" alt="Background">
+    </div>
+    <!-- image section ends -->
+
+
+    <!-- scroll button to go top -->
+    <button id="goTop" title="Go to top">Top
+    </button>
+
+    <!-- main section starts -->
+    <main class="content">
+      <h2 class="careers underline"><center>CAREERS</center></h2>
+      <p class="mainPara">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, ab iusto eum aperiam dolorem accusantium dolore odit facere perspiciatis reiciendis, eos ratione, enim esse consequatur quidem quos adipisci saepe doloremque! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </main>
+    <div class="form">
+      <p class="form-head">HAVE QUESTIONS? GET A FREE CASE REVIEW</p>
+      <form action="#">
+        <p class="form-title">Bold labels are required</p>
+        <div class="firstLine flex">
+          <input type="text"  class = "form_input" placeholder="Name">
+          <input type="phone" class = "form_input" placeholder="Phone">
+          <input type="email" class = "form_input" placeholder="Email Address">
+        </div>
+        <div class="secondLine">
+          <input class="dicription" type="text" placeholder="Brief description of your legal issue">
+        </div>
+        <div class="disclaimer flex">
+          <input type="checkbox">
+          <p>I have read the <u>disclaimer</u>. <u>Privacy Policy</u></p>
+        </div>
+        <div class="form_button flex">
+          <button class="btn flex">
+            <i class="angle flex fa-solid fa-chevron-right"></i>
+            <span class="form_btn_text">Request a free consultation</span>
+          </button>
+        </div>
+      </form>
+    </div>
+    <div class="map flex">
+      <div class="first_map">
+        <h3>BRIDGEPORT</h3>
+        <p>Lorem ipsom loren</p>
+        <p>Lorem ipsom loren</p>
+        <p class="phone-no">XXX.XXX.XXXX</p>
+        <img src="./img/map.jpg" alt="">
+      </div>
+      <div class="second_map">
+        <h3>NEW HAVEN</h3>
+        <p>Lorem ipsom loren</p>
+        <p>Lorem ipsom loren</p>
+        <p class="phone-no">XXX.XXX.XXXX</p>
+        <img src="./img/map.jpg" alt="">
+      </div>
+      <div class="third_map">
+        <h3>DANBURY</h3>
+        <p>Lorem ipsom loren</p>
+        <p>Lorem ipsom loren</p>
+        <p class="phone-no">XXX.XXX.XXXX</p>
+        <img src="./img/map.jpg" alt="">
+      </div>
+    </div>
+    <!-- main section ends -->
+
+    <!-- footer section starts-->
+    <footer class="flex">
+      <div class="multimedia flex">
+        <i class="fa-brands multimedia_icon fa-facebook-f"></i>
+        <i class="fa-brands multimedia_icon fa-twitter"></i>
+        <i class="fa-brands multimedia_icon fa-linkedin-in"></i>
+      </div>
+      <div class="footer_navigation">
+        <ul class="flex ul">
+          <li><a href="#"> ABOUT US</a></li>
+          <li><a href="#">RESULTS</a></li>
+          <li><a href="#">STORIES</a></li>
+          <li><a href="#">LAWYERS & STAFF</a</li>
+          <li><a href="#">NEWS</a></li>
+          <li><a href="#">PRACTICE AREAS</a></li>
+        </ul>
+      </div>
+      <div class="copyrights">
+        <p>&copy;2019 FindLaw, Thomson Routers. All rights reserved.</p>
+        <div class="link">
+          <a href="#">Disclaimer</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section ends-->
+
+    <!-- custom javascript file -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

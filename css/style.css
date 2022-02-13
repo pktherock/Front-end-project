@@ -1,0 +1,483 @@
+/* Spartan fonts from font awesome website*/
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;400;500;600;700&display=swap');
+
+/* Resetting all unwanted default styling */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* class to giver display flex property */
+.flex {
+    display: flex;
+}
+
+.header {
+    background-color: #123a61FF;
+    justify-content: space-between;
+}
+
+.logo {
+    /* width: 40%; */
+    margin-left: 9%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -26px;
+    /* font-family: 'Mulish', sans-serif; */
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Spartan', sans-serif;
+    cursor: pointer;
+}
+
+.logoName {
+    align-self: flex-end;
+    color: white;
+    font-weight: bold;
+    font-size: 5em;
+}
+
+.header .right {
+    /* width: 50%; */
+    margin-right: 9%;
+    color: white;
+    justify-self: flex-end;
+    /* FIXME */
+    font-family: 'Spartan', sans-serif;
+    font-weight: 400;
+}
+
+.header .right input {
+    margin-top: 10px;
+    border: none;
+    background-color: #123a61FF;
+    text-align: right;
+    padding-right: 7px;
+    height: 25px;
+    color: white;
+    font-size: 1em;
+    border-bottom: 1px solid white;
+}
+
+
+.header .right input::placeholder {
+    color: white;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.header .right .phone-no {
+    color: #d8f1f2;
+    font-weight: 600;
+    font-family: Spartan, sans-serif;
+}
+
+.padding-top {
+    padding-top: 10px;
+}
+
+.padding-bottom {
+    padding-bottom: 10px;
+}
+
+.border-top {
+    border-top: 1px solid white;
+}
+
+.border-bottom {
+    border-bottom: 1px solid white;
+}
+
+
+
+/* navigation section */
+
+.navigation {
+    justify-content: space-evenly;
+    height: 80px;
+    align-items: center;
+    width: 100%;
+}
+
+.navigation .left {
+    font-weight: 700;
+    font-family: Spartan, sans-serif;
+}
+
+.navigation .left .ul {
+    list-style-type: none;
+}
+
+.check_btn {
+    font-size: 30px;
+    font-weight: 700;
+    display: none;
+    cursor: pointer;
+}
+
+
+.navigation .left .ul li {
+    padding: 0 15px;
+    border-right: 2px solid black;
+}
+
+.navigation .left .ul li:last-child {
+    border-right: none;
+}
+
+.navigation .left .ul a {
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    color: rgb(90, 83, 83);
+}
+
+.navigation .left .ul a:hover {
+    border-bottom: 3px solid crimson;
+    color: #d88e04;
+}
+
+.navigation .right .nav_btn {
+    height: 50px;
+    width: 200px;
+    border: none;
+    font-weight: bold;
+    font-size: 1.4em;
+    background-color: white;
+    border: 4px solid #70b1b8e3;
+    cursor: pointer;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 900;
+    margin-left: 6rem;
+}
+
+.navigation .right .nav_btn:hover {
+    background-color: #ff9717;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+
+
+/* image section */
+
+.background_image {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.background_image .bg-image {
+    min-width: 100vw;
+    overflow: hidden;
+}
+
+
+/* main section */
+
+.content, .form {
+    width: 100%;
+    padding: 0 15%;
+}
+
+.careers {
+    margin: 40px 0 20px 0;
+    font-weight: 200;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-family: Spartan, sans-serif;
+    color: rgb(90, 83, 83);
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.mainPara {
+    text-align: justify;
+    font-family: Spartan, sans-serif;
+    line-height: 30px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(131, 125, 125);
+}
+
+
+
+/* FORM SECTION */
+
+.form {
+    margin-top: 60px;
+    padding-bottom: 100px;
+    background-color: #026e6e;
+    font-family: Spartan, sans-serif;
+    font-weight: 500;
+}
+
+.form-head {
+    text-align: center;
+    font-size: 2.6em;
+    color: #ff9717;
+    padding-top: 100px;
+}
+
+.form-title {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: Spartan, sans-serif;
+    font-weight: 500;
+}
+
+.firstLine {
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+.form .firstLine .form_input:nth-child(1) {
+    width: 30.9%;
+}
+
+.form .firstLine .form_input:nth-child(2) {
+    width: 37%;
+}
+
+.form .firstLine .form_input:nth-child(3) {
+    width: 29%;
+}
+
+.form .firstLine .form_input::placeholder {
+    color: white;
+}
+
+.form .firstLine .form_input {
+    height: 40px;
+    padding-left: 10px;
+    /* width: 32.3%; */
+    background-color: #46bec3;
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    font-family: Spartan, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.secondLine .dicription {
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+    background-color: #46bec3;
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    padding-left: 10px;
+    text-align: start;
+    font-family: Spartan, sans-serif;
+    font-weight: 500;
+}
+
+.secondLine .dicription::placeholder {
+    color: white;
+}
+
+.disclaimer {
+    margin: 25px 0 35px 0;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.disclaimer input {
+    background-color: #46bec3;
+    height: 18px;
+    width: 18px;
+    margin-left: -2%;
+    margin-right: 2%;
+    cursor: pointer;
+}
+
+.form .form_button .btn {
+    padding: 10px 20px 10px 10px;
+    align-items: center;
+    background-color: #d88e04;
+    outline: none;
+    border: none;
+    border: 1px solid white;
+    color: white;
+    align-items: center;
+    height: 50px;
+    width: 350px;
+    margin: auto;
+    cursor: pointer;
+    font-family: Spartan, sans-serif;
+    font-weight: 500;
+}
+
+.form .form_button .btn:hover {
+    background-color: rgb(88, 67, 28);
+    color: #d88e04;
+}
+
+.angle {
+    border: 3px solid white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    /* font-weight: 700; */
+    font-size: 20px;
+}
+
+.form_btn_text {
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+/* map section */
+
+
+.map {
+    padding: 0 10%;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    justify-content: space-evenly;
+    background-color: #84bbd1;
+    font-family: Spartan, sans-serif;
+    font-weight: 500;
+    color: rgb(100, 92, 92);
+}
+
+.map h3 {
+    color: white;
+    margin-bottom: 7px;
+    font-size: 25px;
+}
+
+.map p {
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+.map .phone-no {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.map img {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.map img:hover {
+    cursor: pointer;
+}
+
+
+
+/* footer section */
+footer {
+    flex-direction: column;
+    padding: 20px 17% 80px 17%;
+    background-color: #094085;
+    color: white;
+    font-family: Spartan, sans-serif;
+}
+
+footer .multimedia {
+    justify-content: flex-end;
+
+}
+
+footer .multimedia .multimedia_icon {
+    padding: 10px;
+    color: aqua;
+    font-size: 25px;
+}
+
+footer .multimedia .multimedia_icon:hover {
+    background-color: #d88e04;
+    color: rgb(72, 72, 206);
+    cursor: pointer;
+}
+
+footer .footer_navigation {
+    margin-top: 30px;
+}
+
+footer .footer_navigation .ul {
+    list-style-type: none;
+}
+
+footer .footer_navigation .ul a {
+    text-decoration: none;
+}
+
+footer .footer_navigation .ul a:hover {
+    border-bottom: 3px solid crimson;
+    color: #d88e04;
+}
+
+footer .footer_navigation .ul li {
+    border-right: 2px solid white;
+    padding: 0 32px
+}
+
+footer .footer_navigation .ul li:first-child {
+    padding-left: 0;
+}
+
+footer .footer_navigation .ul li:last-child {
+    border-right: none;
+}
+
+footer .footer_navigation .ul li a {
+    color: white;
+}
+
+footer .copyrights {
+    margin-top: 30px;
+}
+
+footer .copyrights p {
+    font-size: 15px;
+    color: rgb(206, 199, 199)
+}
+
+footer .copyrights .link a {
+    color: white;
+}
+
+footer .copyrights .link a:first-child {
+    border-right: 2px solid rgb(206, 199, 199);
+    padding-right: 15px;
+}
+
+footer .copyrights .link a:last-child {
+    padding-left: 10px;
+}
+
+footer .copyrights .link {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+
+footer .link a {
+    text-decoration: none;
+}
+
+footer .link a:hover {
+    border-bottom: 3px solid crimson;
+    color: #d88e04;
+}
