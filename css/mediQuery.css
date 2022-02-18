@@ -1,5 +1,7 @@
 @media (max-width: 1120px) {
     .check_btn {
+        /* position: fixed;
+        top: 10px; */
         display: flex;
         justify-content: flex-end;
         margin: 10px 40px 10px 0;
@@ -8,7 +10,7 @@
     }
 
     .navigation {
-        position: fixed;
+        /* position: fixed; */
         top: 120px;
         display: block;
         width: 100%;
